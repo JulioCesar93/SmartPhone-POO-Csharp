@@ -8,7 +8,7 @@ namespace DesafioPOO.Models
         protected string IMEI {get; set;}
         protected int Memoria {get; set;}
 
-        public Smartphone (string numero, string modelo, string imei, int memoria)
+        protected Smartphone (string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
             Modelo = modelo;
